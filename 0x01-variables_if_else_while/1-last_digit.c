@@ -2,30 +2,30 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - determine if the last digit of a random is
- * greater than or less than 5, or is zero..
-(*
- *Return: 0 on success
+ * main - print the last digit of a randomly generated number
+ *
+ * and whether it is  greater than 5, less than 6, or 0.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
 	int n;
-	char last[] = "last digit of";
-
+	int last_dig;
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	printf("%s %d is %d and is ", last, n, n % 10);
-	if (n % 10 > 5)
+	n = rand() -RAND_MAX / 2;
+	last_dig = n % 10;
+	if (last_dig > 5)
 	{
-		printf("greater than 5\n");
+		printf("Last digit of %d is %d and is greater than 5\n", n, last_dig);
 	}
-	else if (n % 10 == 0)
+	else if (last_dig == 0)
 	{
-		printf("0\n");
+		printf("Last digit of %d is %d and is 0\n", n, last_dig);
 	}
 	else
 	{
-		printf("less than 6 and not 0\n");
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_dig);
 	}
 	return (0)
 }
