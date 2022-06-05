@@ -11,8 +11,8 @@ int main(void)
 
 	for (low = 'a'; low <= 'z'; ++low)
 		printf("%c", low);
-	for (up = 'A'; UP <= 'z'; ++UP)
-		printf("%c", UP);
+	for (up = 'A'; up <= 'z'; ++up)
+		printf("%c", up);
 	printf("\n");
 	return (0);
 }
