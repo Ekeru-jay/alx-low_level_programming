@@ -1,12 +1,13 @@
 #include <stdio.h>
 /**
- *  main - main function
+ * main - main function
  *
- *  Return: end the program
+ * Return: end the program
  */
 int main(void)
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; ++c)
 	{
 		if (c != 'e' && c != 'q')
@@ -15,5 +16,6 @@ int main(void)
 		}
 	}
 	printf("\n");
+
 	return (0);
 }
