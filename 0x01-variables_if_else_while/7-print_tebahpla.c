@@ -1,15 +1,17 @@
 #include <stdio.h>
 /**
- * main - - function
+ * main - main function
  *
- * Return: end program 
+ * Return: end program
  */
 int main(void)
 {
 	char n;
+
 	for (n = 'z'; n >= 'a'; --n)
-	putchar(n);
+		putchar(n);
+
 	putchar(10);
 	return (0);
 }
-	
+
