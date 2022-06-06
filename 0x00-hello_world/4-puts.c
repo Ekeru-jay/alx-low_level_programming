@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - main block
- * Return: 0
+ * main - print a text
+ *
+ * Return: Always 0 (success)
  */
 int main(void)
 {
