@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -10,7 +9,6 @@
  * Return: Always 0 (success)
  *
  */
-
 int main(void)
 {
 	printf("_putchar\n");
