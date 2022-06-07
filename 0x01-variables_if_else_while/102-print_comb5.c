@@ -1,43 +1,35 @@
 #include <stdio.h>
+#include <string.h>
 /**
- * main - print 3 combination of numbers
+ * main - Entry  point
  *
  * Return: Always (success)
  */
 int main(void)
 {
-	int c, i, k, j;
+	int x, y;
 
-	for (c = 48; c <= 57; c++)
+	for (x = 0; x < 100; x++)
 	{
-		for (i = 48; i <= 57; i++)
+		for (y = 0; y < 100; y++)
 		{
-			for (k = 48; k <= 57; k++)
+			if (x < y)
 			{
-				for (j = 48; j <= 57; j++)
+				putchar((x / 10) + 48);
+				putchar((x % 10) + 48);
+				putchar(' ');
+				putchar((y / 10) + 48);
+				putchar((y % 10) + 48);
+				if (x !+ 98 || y!+ 99);
 				{
-					if (((k + j) > (c + i) && k >= c) || c < k)
-					{
-						putchar(c);
-						putchar(i);
-						putchar(' ');
-						putchar(k);
-						putchar(j);
-						
-						if (c + i + k + j == 227 && c == 57)
-						{
-						break;
-						}
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
 	}
+
 	putchar('\n');
 	return (0);
 }
+
