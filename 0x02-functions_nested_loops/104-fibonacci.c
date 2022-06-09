@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	int c, boolean, boolean2;
-	
+	int c, boolean, loolean2;
+
 	n1 = 1;
 	n2 = 2;
 	boolean = boolean2 = 1;
@@ -38,7 +38,7 @@ int main(void)
 			printf(", %ld", fn);
 			printf("%ld", fn2 % 1000000000);
 			n1 = n2;
-			n2 = n22;
+			n11 = n22;
 			n2 = fn;
 			n22 = (fn2 % 1000000000);
 		}
