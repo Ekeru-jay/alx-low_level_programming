@@ -1,16 +1,17 @@
 #include "main.h"
 
 /**
- * _islpha -shows 1 if the input is a
- * letter A nother cases, shows 0
+ * _isalpha - a function that
+ * checks if a character is an alphabet or not.
  *
- * @c: The character in ASCII code
+ * @c: Character to be checked
  *
- * Return: 1 for letter. 0 for the rest.
+ * Return: 1 upon success
  */
+
 int _isalpha(int c)
 {
-	if ((c >= 97 && c < 122) || (c >= 65 && c < 90))
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'z'))
 	{
 		return (1);
 	}
@@ -19,4 +20,4 @@ int _isalpha(int c)
 		return (0);
 	}
 	_putchar('\n');
-}
+i}

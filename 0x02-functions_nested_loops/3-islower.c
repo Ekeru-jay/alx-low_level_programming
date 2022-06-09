@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * islower - shows 1 if the input is a
@@ -9,6 +10,7 @@
  *
  * Return: 1 for lowercase character 0 for the rest.
  */
+
 int _islower(int c)
 {
 	if (c >= 97 && c <= 122)
