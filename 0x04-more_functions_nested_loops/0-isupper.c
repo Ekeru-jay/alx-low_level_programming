@@ -1,4 +1,4 @@
-i#include "main.h"
+#include "main.h"
 
 /**
  * _isupper - function that
@@ -11,7 +11,7 @@ i#include "main.h"
 
 int _isupper(int c)
 {
-	if (c >= 'a' && c <= 'z')
+	if (c >= 'A' && c <= 'Z')
 		return (1);
 	else
 		return (0);
