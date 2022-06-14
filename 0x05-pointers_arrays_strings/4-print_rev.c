@@ -11,7 +11,7 @@
  * Return: nothing
  */
 
-void print_rev(char)
+void print_rev(char *s)
 {
 	int i, n;
 
