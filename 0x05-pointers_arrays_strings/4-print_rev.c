@@ -6,12 +6,12 @@
  * print_rev - function that prints string
  * to stdoutin reverse form.
  *
- * @S: string to be reversed
+ * @s: string to be reversed
  *
  * Return: nothing
  */
 
-void print_rev(char *S)
+void print_rev(char *s)
 {
 	int i, n;
 
