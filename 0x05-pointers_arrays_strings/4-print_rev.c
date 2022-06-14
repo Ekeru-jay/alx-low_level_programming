@@ -21,5 +21,5 @@ void print_rev(char *s)
 	{
 		printf("%c", s[i]);
 	}
-	prinf("\n");
+	printf("\n");
 }

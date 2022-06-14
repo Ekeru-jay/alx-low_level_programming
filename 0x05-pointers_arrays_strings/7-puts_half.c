@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 /**
- * put_half - function that prints
+ * puts_half - function that prints
  * half of a string, followed by a new line.
  *
  * @str: string to be halved
