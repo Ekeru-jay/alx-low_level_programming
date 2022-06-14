@@ -8,10 +8,10 @@
  *
  * @S: string to be reversed
  *
- * Return: nothing 
+ * Return: nothing
  */
 
-void print_rev(char *s)
+void print_rev(char)
 {
 	int i, n;
 
