@@ -23,7 +23,7 @@ char *leet(char *s)
 		for (j = 0; j < 10; j++)
 		{
 			if (s[i] == x[j])
-				s[i] == x[j];
+				s[i] == y[j];
 		}
 	}
 
