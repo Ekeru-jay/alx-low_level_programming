@@ -10,7 +10,7 @@
  * @accept: string containing characters
  * to march.
  *
- * Return: return a pointer to the 
+ * Return: return a pointer to the
  * character in *s that matches one
  * of the characters in *accept else NULL.
  */

@@ -17,7 +17,6 @@
  * in haystack. If needle points to an
  * empty string, haystack is returned.
  */
- 
 char *_strstr(char *haystack, char *needle)
 {
 	return (strstr(haystack, needle));
