@@ -41,7 +41,7 @@ int get_length(char *s)
  *
  * @s: string
  *
- * @1: length of string
+ * @l: length of string
  *
  * Return: 1 if palindrome, 0 if not
  */
