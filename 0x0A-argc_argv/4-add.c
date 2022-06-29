@@ -11,7 +11,7 @@
  * @argv: Array containing the
  * programs command line arguments.
  *
- * Return 0 on success and
+ * Return: return 0 on success and
  * 1 on error.
  *
  */
